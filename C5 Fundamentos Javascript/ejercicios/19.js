@@ -5,6 +5,10 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+  var result = x + y
+  return result
 }
+
+suma(4, 8)
 
 module.exports = suma; 

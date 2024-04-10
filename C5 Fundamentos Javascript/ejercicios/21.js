@@ -5,6 +5,10 @@ function multiplica(x, y) {
   // 10, 5 ---> 50
   // 5, 5 ---> 25
   // Tu código:
+  var result = x *y
+  return result
 }
+
+multiplica(7, 5)
 
 module.exports = multiplica;

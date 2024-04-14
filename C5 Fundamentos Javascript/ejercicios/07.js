@@ -6,6 +6,6 @@ function esTipoDato(valor) {
   return typeof valor
 }
 
-console.log(esTipoDato(true))
+console.log(esTipoDato("hola"))
 
 module.exports = esTipoDato;

@@ -9,6 +9,6 @@ function tieneTresDigitos(num) {
   return false
 }
 
-console.log(tieneTresDigitos(2))
+console.log(tieneTresDigitos(2798))
 
 module.exports = tieneTresDigitos;

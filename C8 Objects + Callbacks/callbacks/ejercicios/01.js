@@ -8,6 +8,6 @@ function invocarCallback(cb) {
    return cb()
 }
 
-
 console.log(invocarCallback(nothingToEjecute));
+
 module.exports = invocarCallback;

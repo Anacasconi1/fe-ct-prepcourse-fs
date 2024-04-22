@@ -7,12 +7,14 @@ function productoEntreNúmeros(a, b) {
   // Tu código:
   var iter=1
   for (let i = a ; i <= b; i ++){
-    
     iter = i*iter
+    if (a <= 0 || b <= 0 || iter <= 0){
+      return 0
+    }
   } 
   return iter
 
 
 }
-console.log(productoEntreNúmeros(1, 5))
+console.log(productoEntreNúmeros(3, 9))
 module.exports = productoEntreNúmeros;

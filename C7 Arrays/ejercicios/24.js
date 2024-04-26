@@ -20,6 +20,6 @@ function continueStatement(num) {
   return array;
 }
 
-console.log(continueStatement(2))
+console.log(continueStatement(50))
 
 module.exports = continueStatement;

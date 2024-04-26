@@ -9,6 +9,6 @@ function esPositivoOInferiorA10(a) {
    return false
 }
 
-console.log(esPositivoOInferiorA10(7))
+console.log(esPositivoOInferiorA10(-11))
 
 module.exports = esPositivoOInferiorA10;

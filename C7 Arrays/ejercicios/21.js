@@ -4,9 +4,9 @@ function mesesDelAño(array) {
   // Si alguno de los meses no está, retornar el string: "No se encontraron los meses pedidos".
   // Tu código:
   var newArray = []
-  var filtered = array.find((element)=> element == "enero" );
-  var filtered2 = array.find((element)=> element == "marzo" );
-  var filtered3 = array.find((element)=> element == "noviembre" );
+  var filtered = array.find((element)=> element == "Enero" );
+  var filtered2 = array.find((element)=> element == "Marzo" );
+  var filtered3 = array.find((element)=> element == "Noviembre" );
   newArray.push(filtered, filtered2, filtered3)
   if(!filtered||!filtered2||!filtered3){
     return "No se encontraron los meses pedidos"
@@ -14,5 +14,5 @@ function mesesDelAño(array) {
   return newArray
 }
 
-console.log(mesesDelAño(["marzo", "junio", "mayo", "enero", "noviembre"]))
+console.log(mesesDelAño(["junio", "mayo", "Marzo"]))
 module.exports = mesesDelAño;

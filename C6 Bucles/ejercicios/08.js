@@ -3,12 +3,12 @@ function esPositivoOInferiorA10(a) {
    // Retorna true si es positivo y menor que 10.
    // Retorna false en caso contrario.
    // Tu código:
-   while (a < 10 && a > 0 ){
+   if (a >= 0 && a < 10){
       return true
    }
    return false
 }
 
-console.log(esPositivoOInferiorA10(-7))
+console.log(esPositivoOInferiorA10(7))
 
 module.exports = esPositivoOInferiorA10;

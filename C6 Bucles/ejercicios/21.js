@@ -13,6 +13,6 @@ function esPotenciaDeDos(numero) {
   }
   return false
 }
-console.log(esPotenciaDeDos(36))
+console.log(esPotenciaDeDos(2))
 
 module.exports = esPotenciaDeDos;

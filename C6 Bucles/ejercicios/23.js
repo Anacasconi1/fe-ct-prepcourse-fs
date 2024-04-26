@@ -7,11 +7,12 @@ function esNumeroPrimo(numero) {
   // solo es divisible por sí mismo y por 1.
   // Tu código:
   var count = 2;
-  if (numero == 2){
-    return false
-  }
+  
   while (count < numero){ 
-    if (numero % count === 0){
+    if (numero === 2){
+        return true
+      }
+    else if (numero % count === 0){
       return false;
     }
     count ++;
@@ -19,5 +20,5 @@ function esNumeroPrimo(numero) {
   return true ; 
 }
 
-console.log(esNumeroPrimo(21))
+console.log(esNumeroPrimo(2))
 module.exports = esNumeroPrimo;

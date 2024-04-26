@@ -6,7 +6,7 @@ function sumarHastaNConBreak(n) {
    var count = 0
    for (var i = 0 ; i <= n; i++){
       count = i + count
-      if (count = 100){
+      if (count >= 100){
          break
       }
   }
